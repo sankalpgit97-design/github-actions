@@ -10,8 +10,8 @@ test.describe('Login Test Automation - Login Flow', () => {
         const username = process.env.USER_NAME;
         const password = process.env.PASSWORD;
         
-    await page.locator('#username').fill(username);
-    await page.locator('#password').fill(password);
+    await page.locator('#username').fill(loginData.username);
+    await page.locator('#password').fill(loginData.password);
     await page.locator('#submit').click();
 
     await expect(page).toHaveURL(/.*logged-in-successfully/);
