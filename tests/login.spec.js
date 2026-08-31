@@ -33,6 +33,3 @@ await page.context().storageState({path: 'state.json'});
 
 
 // });
-
-
-const {test} = require
