@@ -1,5 +1,5 @@
 const {test, expect} = require('@playwright/test');
-const {LoginPage} = require('../pages/LoginPage')
+const {loginPage} = require('../pages/loginPage')
 const testData = require('../data/loginData.json');
 
 test ('Log in and save session state', async ({page}) => {
