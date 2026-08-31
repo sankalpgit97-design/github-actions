@@ -8,10 +8,6 @@ await page.locator('#username').fill(loginData.username);
 await page.locator('#password').fill(loginData.password);
 await page.locator('#submit').click();
 
-
-
-
-
 });
 
 
