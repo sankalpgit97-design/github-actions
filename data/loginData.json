@@ -1,6 +1,7 @@
 {
-    "url": "https://practicetestautomation.com/practice-test-login/",
-    "landingPage": "https://practicetestautomation.com/logged-in-successfully/",
+    "loginUrl": "https://practicetestautomation.com/practice-test-login/",
+    "dashboardUrl": "https://practicetestautomation.com/logged-in-successfully/",
     "username": "student",
     "password": "Password123"
+    
 }
